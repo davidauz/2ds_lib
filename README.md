@@ -2,14 +2,8 @@
 
 <p>This project shows a library module that defines two different data sources.
 </p><p>
-Other modules are:
-</p>
-<ol>
-    <li>Module1: accesses the first data source</li>
-    <li>Module2: accesses the first data source</li>
-    <li>Module3: accesses both data sources</li>
-</ol>
-<p>
+Another module uses the library to actually access the data.
+</p> <p>
 Use this script on your MSSQL server to create the test environment:
 </p>
 <pre>
