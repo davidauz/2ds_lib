@@ -52,7 +52,7 @@ public class mssqlDataSourceConfiguration {
 //    in the properties file, those should be included in the configuration classes separately
 //    for each data source.
     @Primary
-    @Bean(name = "mssqlTableEntityManagerFactory") // attenzione a maiuscole e minuscole!
+    @Bean(name = "mssqlTableEntityManagerFactory") // write the right capital letters!
     @ConfigurationProperties("app.datasource.mssql")
     public LocalContainerEntityManagerFactoryBean MssqlTableEntityManagerFactory(EntityManagerFactoryBuilder builder) {
         Map<String, String> mssqlJpaProperties = new HashMap<>();
